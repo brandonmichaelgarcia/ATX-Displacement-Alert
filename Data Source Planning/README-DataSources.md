@@ -34,16 +34,16 @@ Currently, we aim to describe the risk of displacement using the following risk 
 - [ ] Services have been prepared to regularly update this data source into database.
 
 ### New building construction permits (street address resolution)
-- This factor consists of permits for new building construction in Austin Texas.
+- This factor consist of permits for new building construction in Austin Texas.
 - [x] The data source that provides up-to-date localized data has been identified.
-    * This data originates from csv file available on this website: https://data.austintexas.gov/Building-and-Development/Issued-Construction-Permits/3syk-w9eu
+    * This data originates from a csv file available on this website: https://data.austintexas.gov/Building-and-Development/Issued-Construction-Permits/3syk-w9eu
 - [x] This data is ready for incorporation into an experimental database.
 - [ ] Services have been prepared to regularly update this data source into database.
 
 ### Eviction rates from 2000-2016 (block group resolution) AND poverty rates from 2000-2016 (block group resolution) AND median property value from 2000-2016 (block group resolution) AND percent renter occupied from 2000-2016 (block group resolution) AND population size from 2000-2016 (block group resolution).
 - The above factors consists of historical data for Travis County from 2000 to 2016 on: rates of actual eviction in each block group, rates of poverty in each block group, median property values of real property in each block group, percentage of residents in block group that are renters, and the size of population within a block group. 
 - [x] The data source that provides up-to-date localized data has been identified.
-    * This data originates from csv file available on this website: https://eviction-lab-data-downloads.s3.amazonaws.com/TX/block-groups.csv
+    * This data originates from a csv file available on this website: https://eviction-lab-data-downloads.s3.amazonaws.com/TX/block-groups.csv
     * The relevant block groups can be restricted to those in Travis County.
 - [x] This data is ready for incorporation into an experimental database.
 - [ ] Services have been prepared to regularly update this data source into database.
