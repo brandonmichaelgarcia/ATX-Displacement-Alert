@@ -3,7 +3,7 @@ Tool to identify displacement risk in Austin, TX.
 
 
 # MISSION:
-This project aims to assist analysts and on-the-ground activists support those Austin residents at risk of displacement, where "displacement" refers to both eviction and unwanted selling of a home by a homeowner. Most readily, we are attempting to develop a tool to be used by activists to identify streets of Austin that activists could provide door-to-door outreach to maximize the likelihood of encountering residents most at-risk of displacement.
+Through this project, we will develop a tool for on-the-ground activists, who can use the geographic information to cut turf, create walk lists, and canvass door-to-door, connecting  Austin residents at risk of displacement with useful resources and information they can utilize to prevent or fight back against eviction.
 
 # SOLUTION:
 We are looking to create an interactive map web application, with multiple layers overlayed on the map to describe the risk of resident/tenant displacement. Because the real-time eviction filings provide only zip code level data and represent only a part of all displacements, we have sought to use multiple data sources that provide both a higher level of resolution (i.e. we want data that is localized on areas smaller than zip code level) and a more complete sketch of the factors that correlate with displacement.
