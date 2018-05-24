@@ -26,7 +26,6 @@ It is clear that just overlaying each of the above risk factors on a map may not
 
 
 ## CURRENT TASKS/CHALLENGES:
-* Identify data source for new building sales.
 * Identify new building sales that are most relevant to displacement risk.
 * Identify building construction permits that are most relevant to displacement risk.
 * Idenfity methods to best weight/adjust risk factors to improve relevance.

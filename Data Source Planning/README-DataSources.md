@@ -27,9 +27,10 @@ Currently, we aim to describe the risk of displacement using the following risk 
 - [ ] Services have been prepared to regularly update this data source into database.
 
 ### New building sales (street address resolution)
-- This factor consists possibly of either recent home sales in Travis County, or homes on market in Austin.
-- [ ] The data source that provides up-to-date localized data has been identified.
-    * Some examples of almost sufficient data sources include: http://www.austinhomesearch.com/Listing/ListingSearch.aspx, and http://propaccess.traviscad.org/clientdb/PropertySearch.aspx?cid=1
+- This factor consists of current homes on the housing market in Austin.
+- [x] The data source that provides up-to-date localized data has been identified.
+    * This data originates from dynamically generated webpages on this website: http://www.austinhomesearch.com/Listing/ListingSearch.aspx
+    * This data requires entering "Austin, TX" as the location area to restrict the website's data.
 - [ ] This data is ready for incorporation into an experimental database.
 - [ ] Services have been prepared to regularly update this data source into database.
 
