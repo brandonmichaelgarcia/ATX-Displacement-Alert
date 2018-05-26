@@ -25,13 +25,12 @@ It is clear that just overlaying each of the above risk factors on a map may not
 *FOR MORE INFORMATION ABOUT THESE DATA SOURCES, LOOK AT THE README HERE: https://github.com/brandonmichaelgarcia/ATX-Displacement-Alert/blob/master/Data%20Source%20Planning/README-DataSources.md*
 
 
-## CURRENT TASKS/CHALLENGES:
+## OVERVIEW OF TASKS/CHALLENGES:
 * Identify new building sales that are most relevant to displacement risk.
 * Identify building construction permits that are most relevant to displacement risk.
-* Idenfity methods to best weight/adjust risk factors to improve relevance.
+* Identify methods to best weight/adjust risk factors to improve relevance.
 * Identify risk formula to best combine risk factors.
 * Build script to use for regular web-scraping of recent eviction filings from a dynamically generated webpage.
-* Build script to use for regular web-scraping of new building sales from a dynamically generated webpage.
 * Build database supporting querying for relevant data to display in a heat map layer.
 * Build web application that supports viewing multiple heat map layers describing risk. 
 * Build functionality to provide animated time-lapse of historical data.
