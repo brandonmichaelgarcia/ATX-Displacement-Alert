@@ -6,13 +6,14 @@ We are looking to create an interactive map web application, with multiple layer
 ## Overview of Data sources
 Currently, we aim to describe the risk of displacement using the following risk factors:
 1. recent eviction filings (zip code resolution)
-2. new building sales (street address resolution)
-3. new building construction permits (street address resolution)
-4. eviction rates from 2000-2016 (block group resolution).
-5. poverty rates from 2000-2016 (block group resolution).
-6. median property value from 2000-2016 (block group resolution).
-7. percent renter occupied from 2000-2016 (block group resolution).
-8. population size from 2000-2016 (block group resolution).
+2. tax delinquency parcels (street address resolution)
+3. new building sales (neighborhood/zipcode resolution)
+4. new building construction permits (street address resolution)
+5. eviction rates from 2000-2016 (block group resolution).
+6. poverty rates from 2000-2016 (block group resolution).
+7. median property value from 2000-2016 (block group resolution).
+8. percent renter occupied from 2000-2016 (block group resolution).
+9. population size from 2000-2016 (block group resolution).
 
 ## Detailed Description of Data sources
 ### Recent eviction filings (zip code resolution)
@@ -26,11 +27,18 @@ Currently, we aim to describe the risk of displacement using the following risk 
 - [ ] This data is ready for incorporation into an experimental database.
 - [ ] Services have been prepared to regularly update this data source into database.
 
-### New building sales (street address resolution)
+### Tax Delinquency Parcels (street address resolution)
+- This factor consists of current real property whose owner is deliquent in paying property taxes.
+- [x] The data source that provides up-to-date localized data has been identified.
+    * This data originates from csv files available on this website: https://tax-office.traviscountytx.gov/pages/tdc.php
+- [x] This data is ready for incorporation into an experimental database.
+- [ ] Services have been prepared to regularly update this data source into database.
+
+### New building sales (neighborhood/zipcode resolution)
 - This factor consists of current homes on the housing market in Austin.
 - [x] The data source that provides up-to-date localized data has been identified.
-    * This data originates from dynamically generated webpages on this website: http://www.austinhomesearch.com/Listing/ListingSearch.aspx
-    * This data requires entering "Austin, TX" as the location area to restrict the website's data.
+    * This data originates from csv files available on this website: https://www.zillow.com/research/data/
+    * This data has several resources for use, including: median listing price per sq ft per neighborhood, seasonally adjusted inventory size for for-sale homes, and ZHVI for all homes in each neighborhood.
 - [ ] This data is ready for incorporation into an experimental database.
 - [ ] Services have been prepared to regularly update this data source into database.
 
