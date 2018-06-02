@@ -31,6 +31,7 @@ Currently, we aim to describe the risk of displacement using the following risk 
 - This factor consists of current real property whose owner is deliquent in paying property taxes.
 - [x] The data source that provides up-to-date localized data has been identified.
     * This data originates from csv files available on this website: https://tax-office.traviscountytx.gov/pages/tdc.php
+    * Decriptions of this data is available on: https://tax-office.traviscountytx.gov/online-services/view-open-data
 - [x] This data is ready for incorporation into an experimental database.
 - [ ] Services have been prepared to regularly update this data source into database.
 
